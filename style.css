@@ -1,0 +1,96 @@
+html{
+    text-align: center;
+}
+
+h1{
+    font-size: xxx-large;
+    font-family: monospace;
+    animation: space 2s;
+    padding: 80px;
+}
+
+@keyframes space {
+    from {padding: 40px;}
+    to {padding: 100px;}
+}
+
+h3{
+    /* font-size: x-large; */
+    font-size: 25px;
+    padding-bottom: 30px;
+    animation: space 4s;
+}
+
+body{
+    background-image: url("https://images.hdqwalls.com/wallpapers/amazing-sport-car-artwork-rd.jpg");
+    font-family: monospace;
+    color: white;
+}
+
+/* img {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 50%;
+  } */
+
+button{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    transition: 150ms;
+    font-size: 20px;
+border: none;
+text-decoration: none;
+}
+  
+
+
+button:hover{
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 25px;
+padding-bottom: 25px;
+transition: 150ms;
+font-size: 25px;
+border-radius: 20px;
+text-decoration: none;
+box-shadow: 5px 10px black;
+border: none;
+}
+
+button a{
+    text-decoration: none;
+    color: red;
+}
+
+iframe{
+    opacity: 100%;
+    border-radius: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: white;
+    display: flex;
+    border-radius: 1pc;
+  }
+  
+  nav ul li a{
+    color: red;
+    font-family: monospace;
+    font-size: xx-large;
+  }
+  
+  nav ul li {
+    margin-left: 250px;
+    padding: 30px;
+  }
+
